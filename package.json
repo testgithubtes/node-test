@@ -1,0 +1,16 @@
+{
+  "name": "06-07jour4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-useragent": "^1.0.7",
+    "hbs": "^4.0.1"
+  }
+}

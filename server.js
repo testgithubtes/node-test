@@ -26,9 +26,9 @@ app.use((req,res,next) =>{
   next();
 })
  // Middleware of Maintenace
- app.use((req,res,next) =>{
-   res.render('maintenance')
- })
+ // app.use((req,res,next) =>{
+ //   res.render('maintenance')
+ // })
 
 
 hbs.registerHelper('getCopyright',() => {
@@ -57,5 +57,5 @@ app.get('/bad',(req,res) => {
   });
 });
 app.listen(port , () =>{
-  console.log('server start on port ${port}');
+  console.log(`server start on port ${port}`);
 });

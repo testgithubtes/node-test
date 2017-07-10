@@ -43,6 +43,14 @@ app.get('/', (req,res) => {
   });
 });
 
+
+// Route project
+
+app.get('/projects',(req,res)=>{
+  res.render('projects.hbs',{
+    pageTitle: 'Projects'
+  })
+})
 // Route About Page
 app.get('/about',(req,res) => {
   res.render('about.hbs',{
